@@ -1,0 +1,8 @@
+version: '1'
+services:
+  nginx:
+          build: nginx
+          container_name: ngnix-keycloak
+          ports:
+              - "80:80"
+              - "443:443"
